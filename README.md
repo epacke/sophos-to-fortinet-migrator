@@ -2,7 +2,8 @@
 
 ## Background
 I have had my Sophos UTM VM for almost 3 years and really love the product. It's super easy to manage and has great functionality. However, it was time to learn something new and given the rise of Fortinet during the last few years I decided to purchase a Fortigate.
-Since I had quite a number of objects, DNS and DHCP reservations I decided to automate that process. Rules were quite few so I made that part manually.
+
+This is not a complete migration. Since I had quite a number of objects, DNS and DHCP reservations I decided to automate that process and share the script. Rules were quite few so I made that part manually. Feel free to make a pull request if you add functionality.
 
 ## What it does
  - Creates Fortigate Address objects based on the Sophos host objects
