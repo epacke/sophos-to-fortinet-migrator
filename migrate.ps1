@@ -38,10 +38,6 @@ $Headers = @{
 $Result = Invoke-WebRequest "$($SophosSettings.adminURL)/api/objects/network/host/" -Headers $Headers
 $SophosNetworkHosts = $Result.content | ConvertFrom-Json
 
-# Get the DNS hosts
-$Result = Invoke-WebRequest "$($SophosSettings.adminURL)/api/objects/network/dns_host/" -Headers $Headers
-$dns  = $Result.content | ConvertFrom-Json
-
 #######################################################################################################################
 #
 #   Fortigate section
