@@ -1,4 +1,4 @@
-# Sophos to Fortigate migrating script
+# Sophos to Fortigate migration script
 
 ## Background
 I have had my Sophos UTM VM for almost 3 years and really love the product. It's super easy to manage and has great functionality. However, it was time to learn something new and given the rise of Fortinet during the last few years I decided to purchase a Fortigate.
