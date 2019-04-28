@@ -1,1 +1,0 @@
-# sophos-to-fortinet-migrator
